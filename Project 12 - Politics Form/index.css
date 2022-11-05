@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+html, body {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: #3400f4;
+}
+/* headings*/
+h1 {
+    padding: 10px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    border-top: 0.5px solid rgba(219, 219, 219, 0.2);
+    border-bottom: 0.5px solid rgba(219, 219, 219, 0.2);
+}
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+/* form*/
+.form-div {
+    display: inline-block;
+    position: fixed;
+    width: 80%;
+    background: black;
+    opacity: 1;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+input, label {
+    font-family: 'Dancing Script';
+    color: #fff;
+
+}
+/* close button */
+.close-btn-container {
+    display:flex;
+    justify-content: end;
+    
+}
+.close-btn {
+    background: black;
+    border-radius: 15px;
+    color: red;
+
+    font-size: 30px;
+}
+
+/* input */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
+    
+    
+}
+   
+.radios {
+    margin: -10px;
+}
+label {
+    color: #fff;
+    
+    
+}
+.name-label {
+    display: flex;
+    color: white;
+    margin-left:30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    
+}
+
+.fullname {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+/* submit button */
+.submit-btn {
+    margin-top: 75px;
+    width: 200px;
+    height: 50px;
+    background: red;
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    border-radius: 5.3px;
+}
+.submit-btn:hover, .submit-btn:active {
+    cursor: pointer;
+}
+
+/* result div */
+.result-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.result-div img{
+    width: 400px;
+    border-radius: 6px;
+}
